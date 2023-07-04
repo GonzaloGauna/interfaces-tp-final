@@ -1,0 +1,27 @@
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    background: dodgerblue;
+    padding: 20px;
+    width: 61%;
+    margin: 0 auto;
+    border-radius: 15px;
+    color: white;
+    justify-content: space-around;
+    cursor: default;
+    margin-bottom: 100px;
+}
+
+.banner span {
+    font-size: 6rem;
+}
+
+.banner-title{
+    padding-top: 25px;
+}
+
+.banner-text {
+    font-size: 20px;
+}
