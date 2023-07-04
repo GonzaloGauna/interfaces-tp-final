@@ -6,9 +6,9 @@ export function Profile() {
       {/* <Header /> */}
       <section className="py-4" style={{ background: "#eee" }}>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-4">
-              <div className="card mb-4">
+          <div className="row col-12">
+            <div className="col-lg-4 col-sm-12">
+              <div className="card w-100 mb-4">
                 <div className="card-body text-center">
                   <img
                     src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
@@ -25,49 +25,49 @@ export function Profile() {
               </div>
             </div>
             <div className="col-lg-8">
-              <div className="card mb-4">
+              <div className="card w-100 mb-4">
                 <div className="card-body">
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-5">
                       <p className="mb-0">Nombre y Apellido</p>
                     </div>
-                    <div className="col-sm-9">
+                    <div className="col-sm-7">
                       <p className="text-muted mb-0">Johnatan Smith</p>
                     </div>
                   </div>
                   <hr />
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-5">
                       <p className="mb-0">Email</p>
                     </div>
-                    <div className="col-sm-9">
+                    <div className="col-sm-7">
                       <p className="text-muted mb-0">example@example.com</p>
                     </div>
                   </div>
                   <hr />
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-5">
                       <p className="mb-0">Teléfono</p>
                     </div>
-                    <div className="col-sm-9">
+                    <div className="col-sm-7">
                       <p className="text-muted mb-0">(097) 234-5678</p>
                     </div>
                   </div>
                   <hr />
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-5">
                       <p className="mb-0">Celular</p>
                     </div>
-                    <div className="col-sm-9">
+                    <div className="col-sm-7">
                       <p className="text-muted mb-0">(098) 765-4321</p>
                     </div>
                   </div>
                   <hr />
                   <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-sm-5">
                       <p className="mb-0">Dirección</p>
                     </div>
-                    <div className="col-sm-9">
+                    <div className="col-sm-7">
                       <p className="text-muted mb-0">
                         Bay Area, San Francisco, CA
                       </p>
@@ -77,7 +77,7 @@ export function Profile() {
               </div>
               <div className="row">
                 <div className="col-md-6">
-                  <div className="card mb-4 mb-md-0">
+                  <div className="card mb-4 mb-md-0 w-100">
                     <div className="card-body">
                       <p className="mb-4">
                         <span className="text-primary font-italic me-1">
@@ -105,7 +105,7 @@ export function Profile() {
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <div className="card mb-4 mb-md-0">
+                  <div className="card mb-4 mb-md-0 w-100">
                     <div className="card-body">
                       <p className="mb-4">
                         <span className="text-success font-italic me-1">
