@@ -8,7 +8,7 @@ const ProfilePage = lazy(() => import("./components/Profile"))
 function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div>Cargando....</div>}>
+      <Suspense fallback={<div className="lazy-loading">Cargando....</div>}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/form" element={<FormPage />} />
