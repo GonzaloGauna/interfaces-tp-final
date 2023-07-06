@@ -1,3 +1,7 @@
+.container-form-content{
+  background: white;
+}
+
 .content-form {
   display: flex;
   flex-wrap: wrap;
