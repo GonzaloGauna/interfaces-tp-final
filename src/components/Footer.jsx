@@ -16,7 +16,7 @@ export function Footer () {
 
           <div style={{height: 'max-content', margin: 'auto'}}>
             <p>Descarga la App</p>
-            <a href="https://play.google.com/store/games?hl=es_AR&gl=US&pli=1" class="ver-noticias bg-black fs-6 p-3" role="button" data-bs-toggle="button">Mi UnlAnses</a>
+            <a href="https://play.google.com/store/games?hl=es_AR&gl=US&pli=1" className="bg-black fs-6 p-3" style={{borderRadius: '50px', color: 'white'}} role="button" data-bs-toggle="button">Mi UnlAnses</a>
           </div>
           <div><img src="src\images\Captura-removebg-preview.png" alt="logo argentina gobierno" /></div>
           <div style={{margin: 'auto'}}>

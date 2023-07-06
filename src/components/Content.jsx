@@ -5,7 +5,7 @@ import { HeaderMobile } from "./HeaderMobile";
 
 export default function Content() {
   return (
-    <>
+    <div className="container-form-content">
       <Header />
       <HeaderMobile />
       <form action="#" className="content-form" style={{padding: '50px'}}>
@@ -44,6 +44,6 @@ export default function Content() {
         </div>
       </form>
       <Footer />
-    </>
+    </div>
   );
 }
