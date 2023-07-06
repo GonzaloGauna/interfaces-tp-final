@@ -8,7 +8,7 @@ export default function Content() {
     <div className="container-form-content">
       <Header />
       <HeaderMobile />
-      <form action="#" className="content-form" style={{padding: '50px'}}>
+      <form action="#" className="content-form" style={{padding: '100px'}}>
         <div className="form-group">
           <label htmlFor="dniFront" className="load-content">
             Frente del DNI:
