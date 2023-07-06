@@ -3,6 +3,8 @@ import { Formik, Form, ErrorMessage, Field } from "formik";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "./Header";
+import { HeaderMobile } from "./HeaderMobile";
+import { Footer } from "./Footer";
 
 export default function Formulario() {
   const [success, setSuccess] = useState(false);
@@ -11,6 +13,7 @@ export default function Formulario() {
   return (
     <>
       <Header />
+      <HeaderMobile />
       <div className="contenedor">
         <Formik
           initialValues={{
@@ -214,6 +217,7 @@ export default function Formulario() {
           )}
         </Formik>
       </div>
+      <Footer/>
     </>
   );
 }

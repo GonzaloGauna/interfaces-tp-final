@@ -16,9 +16,8 @@ export function HeaderMobile() {
   return (
     <>
       <MDBNavbar className="d-md-none py-4" style={{ background: "#1E90FF" }}>
-        <MDBContainer fluid>
+        <MDBContainer >
           <MDBNavbarToggler
-            className="ms-auto m-0"
             type="button"
             data-target="#navbarToggleExternalContent"
             aria-controls="navbarToggleExternalContent"
@@ -28,7 +27,7 @@ export function HeaderMobile() {
           >
             <MDBIcon icon="bars" fas />
           </MDBNavbarToggler>
-          <div className="container-title-header">
+          <div className="container-title-header m-0">
             <Link
               className="navbar-brand"
               style={{ fontWeight: "bold", color: "white" }}

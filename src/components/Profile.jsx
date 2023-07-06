@@ -1,10 +1,13 @@
+import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { HeaderMobile } from "./HeaderMobile";
 
 export default function Profile() {
   return (
     <>
       <Header />
-      <section className="py-4" style={{ background: "#eee" }}>
+      <HeaderMobile />
+      <section style={{ background: "#eee", padding: '60px'}}>
         <div className="container">
           <div className="row col-12">
             <div className="col-lg-4 col-sm-12">
@@ -137,6 +140,7 @@ export default function Profile() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

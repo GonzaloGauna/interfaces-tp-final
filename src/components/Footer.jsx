@@ -10,89 +10,58 @@ import {
 
 export function Footer () {
   return (
-    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#f1f1f1' }}>
-      <MDBContainer className='pt-4'>
-        <section className='mb-4'>
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fab fa-facebook-f' />
-          </MDBBtn>
+    <MDBFooter className='text-center text-white' style={{ backgroundColor: '#1E90FF' }}>
+      <MDBContainer className='py-4 d-block' style={{justifyContent: 'space-evenly', alignContent: 'center'}}>
+        <div className='d-block d-md-flex' style={{justifyContent: 'space-around', alignContent: 'center', height: 'max-content', gap: '50px'}}>
 
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-twitter' />
-          </MDBBtn>
+          <div style={{height: 'max-content', margin: 'auto'}}>
+            <p>Descarga la App</p>
+            <a href="https://play.google.com/store/games?hl=es_AR&gl=US&pli=1" class="ver-noticias bg-black fs-6 p-3" role="button" data-bs-toggle="button">Mi UnlAnses</a>
+          </div>
+          <div><img src="src\images\Captura-removebg-preview.png" alt="logo argentina gobierno" /></div>
+          <div style={{margin: 'auto'}}>
 
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-google' />
-          </MDBBtn>
+            <div><h3 className='p-0 m-0'>Seguinos en</h3></div>
+            <section className='p-0 f-flex' style={{justifyContent: 'center', alignContent: 'center'}}>
+              <MDBBtn
+                rippleColor="dark"
+                color='link'
+                floating
+                size="lg"
+                className='text-dark m-1'
+                href='#!'
+                role='button'
+              >
+                <MDBIcon fab className='fab fa-facebook-f' />
+              </MDBBtn>
 
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-instagram' />
-          </MDBBtn>
+              <MDBBtn
+                rippleColor="dark"
+                color='link'
+                floating
+                size="lg"
+                className='text-dark m-1'
+                href='#!'
+                role='button'
+              >
+                <MDBIcon fab className='fa-twitter' />
+              </MDBBtn>
 
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-linkedin' />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="dark"
-            color='link'
-            floating
-            size="lg"
-            className='text-dark m-1'
-            href='#!'
-            role='button'
-          >
-            <MDBIcon fab className='fa-github' />
-          </MDBBtn>
-        </section>
+              <MDBBtn
+                rippleColor="dark"
+                color='link'
+                floating
+                size="lg"
+                className='text-dark m-1'
+                href='#!'
+                role='button'
+              >
+                <MDBIcon fab className='fa-instagram' />
+              </MDBBtn>
+            </section>
+          </div>
+        </div>
       </MDBContainer>
-
-      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-dark' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div>
     </MDBFooter>
   );
 }
