@@ -18,7 +18,7 @@ export function Footer () {
             <p>Descarga la App</p>
             <a href="https://play.google.com/store/games?hl=es_AR&gl=US&pli=1" className="bg-black fs-6 p-3" style={{borderRadius: '50px', color: 'white'}} role="button" data-bs-toggle="button">Mi UnlAnses</a>
           </div>
-          <div style={{display: 'flex', justifyContent: 'center', alignContent: 'center', padding: '20px'}}><img style={{width: '100px'}} src="https://www.argentina.gob.ar/sites/default/files/argentina-presidencia.png" alt="logo argentina gobierno" /></div>
+          <div className="mt-sm-3" style={{display: 'flex', justifyContent: 'center', alignContent: 'center', padding: '20px'}}><img style={{width: '100px'}} src="https://www.argentina.gob.ar/sites/default/files/argentina-presidencia.png" alt="logo argentina gobierno" /></div>
           <div style={{margin: 'auto'}}>
 
             <div><h3 className='p-0 m-0'>Seguinos en</h3></div>
