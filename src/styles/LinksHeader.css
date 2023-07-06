@@ -1,0 +1,11 @@
+.link-header{
+    text-decoration: none;
+    color: white; 
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.link-header:hover{
+    color: white;
+    font-weight: bolder;
+}

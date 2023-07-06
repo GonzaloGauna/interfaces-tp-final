@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const FormPage = lazy(() => import("./components/Form"));
 const HomePage = lazy(() => import("./components/Home"));
 const ProfilePage = lazy(() => import("./components/Profile"))
+const ContentPage = lazy(() => import("./components/Content"))
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/form" element={<FormPage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/content" element={<ContentPage />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

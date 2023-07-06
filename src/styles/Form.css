@@ -1,132 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 * {
-	padding: 0px;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background: #E8E8E8;
-	font-family: 'Open Sans', sans-serif;
+  background: #e8e8e8;
+  font-family: "Open Sans", sans-serif;
 }
 
-.form-campo-obligatorio{
-	margin: 10px 0 20px 0;
-	color: red;
+.form-campo-obligatorio {
+  margin: 10px 0 20px 0;
+  color: red;
 }
 
-.campo-obligatorio{
-	color: red;
+.campo-obligatorio {
+  color: red;
 }
 
 .contenedor {
-	min-height: 100vh;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .formulario {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	min-width: 600px;
-	margin-top: 50px;
-	background: #fff;
-	border-radius: 5px;
-	padding: 20px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 600px;
+  margin-top: 50px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
 }
 
 .formulario > div {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .formulario label {
-	display: block;
-	font-weight: 600;
-	font-size: 16px;
-	margin-bottom: 5px;
-	color: #1f1f1f;
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #1f1f1f;
 }
 
 .formulario input {
-	font-family: 'Open Sans', sans-serif;
-	width: 100%;
-	border-radius: 5px;
-	border: 2px solid #e2e2e2;
-	font-size: 18px;
-	padding: 10px;
-	margin-bottom: 5px;
-	color: #1f1f1f;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #e2e2e2;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 5px;
+  color: #1f1f1f;
 }
 
 .formulario input:focus {
-	outline: none;
-	border: 2px solid #0085FF;
+  outline: none;
+  border: 2px solid #0085ff;
 }
 
 .formulario select {
-	padding: 5px;
-	border: 2px solid #e2e2e2;
-	margin-bottom: 5px;
+  padding: 5px;
+  border: 2px solid #e2e2e2;
+  margin-bottom: 5px;
 }
 
 .formulario .error {
-	color: #e92b2d;
-	font-weight: 600;
-	font-size: 15px;
+  color: #e92b2d;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .formulario button[type="submit"] {
-	display: block;
-	background: #0085FF;
-	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-	padding: 10px;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 16px;
-	transition: .3s ease all;
+  display: block;
+  background: #0085ff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s ease all;
 }
 
 .formulario button[type="submit"]:hover {
-	background: #0051ff;
+  background: #0051ff;
 }
 
 .formulario .exito {
-	text-align: center;
-	font-size: 16px;
-	padding-top: 20px;
-	color: #02a802;
-	font-weight: bolder;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+  color: #02a802;
+  font-weight: bolder;
 }
 
 .formulario input[type="radio"] {
-	width: auto;
+  width: auto;
 }
 
-.btn-volver-inicio {
-	display: block;
-	background: #0085FF;
-	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
-	border: none;
-	cursor: pointer;
-	width: 100%;
-	padding: 10px;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 16px;
-	transition: .3s ease all;
-	text-decoration: none;
-	text-align: center;
+.btn-end-form {
+  display: block;
+  background: #0085ff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.3s ease all;
+  text-decoration: none;
+  text-align: center;
 }
 
-.btn-volver-inicio:hover {
-	background: #0051ff;
+.btn-end-form:hover {
+  background: rgb(101, 178, 255);
+  color: white;
+}
+
+.btns-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
 }

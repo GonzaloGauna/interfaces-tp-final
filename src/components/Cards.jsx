@@ -8,7 +8,7 @@ export function Cards () {
                 <img src="https://unipe.edu.ar/media/k2/items/cache/e071acc32c7e4befc3022bf1715b6773_XL.jpg" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <Link className="card-title" to='/form'>LLená el formulario para obtener tu plan</Link>
-                    <p className="card-text">Beca del gobierno argentino para jóvenes que deseen iniciar o finalizar sus estudios</p>
+                    <p className="card-text">Beca del gobierno argentino para jóvenes estudiantes.</p>
                 </div>
             </div>
             <div className="card">
@@ -21,7 +21,7 @@ export function Cards () {
             <div className="card">
                 <img src="https://www.nono.gob.ar/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-07-at-6.21.25-PM-2048x1024.jpeg" className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <Link className="card-title" to='/form'>Plan nacional, federal e inclusivo de formación en programación.</Link>
+                    <Link className="card-title" to='/form'>Plan nacional y federal de formación en programación.</Link>
                     <p className="card-text">Programa para capacitaciones gratuitas en programación.</p>
                 </div>
             </div>

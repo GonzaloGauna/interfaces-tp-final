@@ -42,6 +42,7 @@
 
 .new-text:hover{
     text-decoration: underline;
+    color: black;
 }
 
 .news-responsive {
@@ -74,8 +75,10 @@
     font-weight: bolder;
     width: 20%;
     text-decoration: none;
+    transition: all 300ms;
 }
 
 .ver-noticias:hover{
-    background: rgb(26, 121, 216);
+    background: rgb(101, 178, 255);
+    color: white;
 }

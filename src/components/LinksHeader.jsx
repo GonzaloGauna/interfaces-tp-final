@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
+import "../styles/LinksHeader.css"
+
 export function LinksHeader () {
   return (
     <>
-      <nav className="navbar d-none d-md-block py-4" style={{ background: "#c1c1c1", color: 'white' }}>
+      <nav className="navbar d-none d-md-block py-4" style={{ background: "#26b9ec", color: 'white' }}>
         <div className='container'>
-            <a style={{ textDecoration: "none", color: 'white', fontWeight: 'bolder'}} href="#">Educación</a>
-            <a style={{ textDecoration: "none", color: 'white', fontWeight: 'bolder'}} href="#">Trabajo</a>
-            <a style={{ textDecoration: "none", color: 'white', fontWeight: 'bolder'}} href="#">Matrimonio</a>
-            <a style={{ textDecoration: "none", color: 'white', fontWeight: 'bolder'}} href="#">Carga de documentación</a>
+            <Link to="/content" className="link-header" >Educación</Link>
+            <Link to="/content" className="link-header">Trabajo</Link>
+            <Link to="/content" className="link-header">Matrimonio</Link>
+            <Link to="/content" className="link-header">Carga de documentación</Link>
         </div>
       </nav>
     </>

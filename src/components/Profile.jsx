@@ -1,9 +1,9 @@
-//import { Header } from "./Header";
+import { Header } from "./Header";
 
-export function Profile() {
+export default function Profile() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <section className="py-4" style={{ background: "#eee" }}>
         <div className="container">
           <div className="row col-12">
