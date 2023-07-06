@@ -88,7 +88,7 @@ export default function Formulario() {
                 <Field
                   type="number"
                   name="dni"
-                  placeholder="Ej: 45238796"
+                  placeholder="Ej: 40806123"
                   id="dni"
                 />
                 <ErrorMessage
