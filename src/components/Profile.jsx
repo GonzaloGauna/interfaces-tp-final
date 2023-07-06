@@ -7,7 +7,7 @@ export default function Profile() {
     <>
       <Header />
       <HeaderMobile />
-      <section style={{ background: "#eee", padding: '80px'}}>
+      <section style={{ background: "#eee", padding: '100px'}}>
         <div className="container">
           <div className="row col-12">
             <div className="col-lg-4 col-sm-12">
