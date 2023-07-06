@@ -1,5 +1,6 @@
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import "../styles/Content.css";
 
 export default function Content() {
   return (
@@ -7,26 +8,38 @@ export default function Content() {
       <Header />
       <form action="#" className="content-form">
         <div className="form-group">
-          <label htmlFor="dniFront">Frente del DNI:</label>
-          <input
-            type="file"
-            name="dniFront"
-            id="dniFront"
-            accept="image/*"
-            required
-          />
+          <label htmlFor="dniFront" className="load-content">
+            Frente del DNI:
+          </label>
+          <div className="inp-container">
+            <input
+              type="file"
+              name="dniFront"
+              className="inp-load"
+              id="dniFront"
+              accept="image/*"
+              required
+            />
+          </div>
         </div>
         <div className="form-group">
-          <label htmlFor="dniBack">Dorso del DNI:</label>
-          <input
-            type="file"
-            name="dniBack"
-            id="dniBack"
-            accept="image/*"
-            required
-          />
+          <label htmlFor="dniBack" className="load-content">
+            Dorso del DNI:
+          </label>
+          <div className="inp-container">
+            <input
+              type="file"
+              name="dniBack"
+              className="inp-load"
+              id="dniBack"
+              accept="image/*"
+              required
+            />
+          </div>
         </div>
-        <button type="submit">Subir Imágenes</button>
+        <div className="btn-content">
+          <button type="submit" className="btn-content-form">Subir Imágenes</button>
+        </div>
       </form>
       <Footer />
     </>
