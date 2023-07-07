@@ -47,17 +47,17 @@ export function HeaderMobile() {
               Educación
             </MDBBtn>
           </Link>
-          <Link>
+          <Link to="/content">
             <MDBBtn block className="m-0" color="link">
               Trabajo
             </MDBBtn>
           </Link>
-          <Link>
+          <Link to="/content">
             <MDBBtn block className="m-0" color="link">
               Matrimonio
             </MDBBtn>
           </Link>
-          <Link>
+          <Link to="/content">
             <MDBBtn block className="m-0" color="link">
               Carga de documentación
             </MDBBtn>
