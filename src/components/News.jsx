@@ -97,7 +97,7 @@ export function News() {
       </div>
       <div className="btn-container">
         <a
-          className="ver-noticias"
+          className="fs-6 p-3 btn-primary" style={{borderRadius: '50px', color: 'white', background: 'dodgerblue'}}
           href="https://www.infobae.com/"
           target="_blank"
         >
